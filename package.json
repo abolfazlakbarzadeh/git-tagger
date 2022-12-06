@@ -1,0 +1,23 @@
+{
+  "name": "git-tagger",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-types": "2.8.0",
+    "parcel": "^2.8.0",
+    "typescript": ">=3.0.0"
+  }
+}
